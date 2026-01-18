@@ -21,3 +21,7 @@ yarn-error.log*
 # Miscellaneous
 .DS_Store
 Thumbs.db
+
+# Vercel
+.vercel
+.vercel/
