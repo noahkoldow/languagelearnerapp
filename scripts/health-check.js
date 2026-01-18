@@ -107,14 +107,12 @@ if (fs.existsSync(rootPackageJsonPath)) {
   try {
     const rootPkg = JSON.parse(fs.readFileSync(rootPackageJsonPath, 'utf8'));
     const requiredScripts = ['build', 'test', 'vercel-build'];
-    let missingScripts = [];
     
     for (const script of requiredScripts) {
       if (rootPkg.scripts && rootPkg.scripts[script]) {
         console.log(`  ✓ Script "${script}" found`);
       } else {
         console.log(`  ✗ Script "${script}" not found`);
-        missingScripts.push(script);
         allChecksPassed = false;
       }
     }
