@@ -1,0 +1,1 @@
+# Language Learner App\n\nThis repository is for a language learning application that includes features such as PDF upload, AI translation, adaptive difficulty levels, and user authentication.
