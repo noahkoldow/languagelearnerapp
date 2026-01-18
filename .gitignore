@@ -1,0 +1,23 @@
+# Node.js
+node_modules/
+
+# Environment variables
+.env
+
+# Build outputs
+/dist/
+/build/
+
+# Logs
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+/jam.json
+/lock.json
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
